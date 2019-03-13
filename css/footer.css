@@ -111,6 +111,12 @@
     width: 80%;
 }
 
+@media only screen and (max-width: 37.5em) {
+    .contact {
+        text-align: left;
+    }
+}
+
 .contact h4 {
     color: #0077b5;
     font-weight: bold;
