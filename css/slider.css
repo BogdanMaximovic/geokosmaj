@@ -1,0 +1,111 @@
+.slider {
+    width: 100%;
+    max-width: 750px;
+    padding: 0 50px;
+    margin: 25px auto 0;
+    height: 350px;
+    position: relative;
+}
+
+.slider ul,
+.slider ul li {
+    width: 100%;
+    height: 100%
+}
+
+.slider ul {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px
+}
+
+.slider ul li {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background-size: cover;
+    /* semon #f98686 */
+    background-position: center;
+    color: #fff;
+    font-family: serif;
+}
+
+.slider ul li:first-of-type {
+    background-image: url("../img/1.png")
+}
+
+.slider ul li:nth-of-type(2) {
+    background-image: url("../img/2.png")
+}
+
+.slider ul li:nth-of-type(3) {
+    background-image: url("../img/3.png")
+}
+
+.slider ul li:nth-of-type(4) {
+    background-image: url("../img/4.png")
+}
+
+.slider ul li:nth-of-type(5) {
+    background-image: url("../img/5.png")
+}
+
+.slider ul li:nth-of-type(6) {
+    background-image: url("../img/1.png")
+}
+
+.slider ul li:nth-of-type(7) {
+    background-image: url("../img/cover2.png")
+}
+
+.slider ul li:last-of-type {
+    background-image: url("../img/test.png")
+}
+
+.slider .controll {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 44%;
+    border-bottom: 3px solid #3b455d;
+    border-left: 3px solid #3b455d;
+    cursor: pointer;
+    color: #3b455d
+}
+
+.slider .controll:first-of-type {
+    transform: rotate(45deg);
+    left: 20px
+}
+
+.slider .controll:last-of-type {
+    transform: rotate(225deg);
+    right: 20px
+}
+
+.slider .controll:hover,
+.slider .controll.active {
+    border-color: #f98686
+        /* rose */
+}
+
+.slider ol {
+    text-align: center;
+}
+
+.slider ol li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.slider ol .fa {
+    font-size: 20px;
+    color: #3b455d;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.slider ol li:hover .fa:before,
+.slider ol li.active .fa:before {
+    content: "\f111"
+}

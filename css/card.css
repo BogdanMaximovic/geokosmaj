@@ -1,0 +1,151 @@
+#work {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/cover.jpg);
+    background-size: cover;
+    color: white;
+    height: auto;
+}
+.tab {
+    padding-top: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 75%;
+    margin: 0 auto;
+    color: #888;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.tabs {
+    display: table;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+}
+
+.tabs li {
+    float: left;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    transition: all .2s ease;
+}
+.tabs li:hover {
+    transform: scale(1.05);
+}
+
+.tabs a {
+    color: #fff;
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.tabs_item {
+    display: none;
+    padding: 10px 10px;
+}
+
+.tabs_item h4 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.tabs_item img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 10px 0;
+}
+
+.tabs_item:first-child {
+    display: block;
+}
+
+.current a {
+    color: #000;
+    background: #fff;
+}
+
+.btn-dwn {
+    color: #000;
+    background: #fff;
+    transition: all .3s ease;
+}
+
+.btn-dwn:hover {
+    color: #fff;
+    background: #000;
+    transform: scale(1.05);
+}
+
+.img {
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    float: left;
+}
+.banner {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 90%;
+  border-radius: 20px;
+}
+.banners {
+    max-width: 100%;
+    display: inline;
+    margin: auto;
+}
+.banner-img:first-child {
+    margin-left: 1.2%;
+}
+.banner-img {
+    width: 15%;
+    height: 80px;
+    background: transparent;
+    transition: all .4s;
+}
+.banner-img:hover {
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 56.25em) {
+    .banner {
+        width: 100%;
+    }
+    .banner-img {
+        width: 28%;
+        height: 60px;
+    }
+    .banner-img:first-child {
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .tab {
+        width: 100%;
+    }
+    .tabs_item img {
+        width: 75px;
+        height: 70px;
+    }
+    .banner-img:first-child {
+        margin-left: 6.2%;
+    }
+    .banner-img {
+        width: 25%;
+        height: 55px;
+    }
+}

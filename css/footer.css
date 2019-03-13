@@ -1,0 +1,132 @@
+.flame {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.iframe-rwd {
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 400px;
+    padding-top: 25px;
+}
+
+.iframe-rwd iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow: hidden;
+}
+
+.info-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.info-icon-home {
+    fill: #dc3545;
+}
+
+.info-icon-mobile {
+    fill: #2b9326;
+}
+
+.info-icon-envelope {
+    fill: #fff;
+}
+
+.call:hover {
+    text-decoration: none;
+}
+
+.openinghours {
+    background-color: #eee;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    margin: auto;
+}
+
+.openinghourscontent {
+    float: left;
+}
+
+.openinghourscontent h2 {
+    display: block;
+    text-align: center;
+    margin-top: .33em;
+}
+
+.today {
+    color: #2b9326;
+}
+
+.opening-hours-table tr td:first-child {
+    font-weight: bold;
+}
+
+#open-status {
+    display: block;
+    text-align: center;
+}
+
+.openorclosed:after {
+    content: " open during these hours:";
+}
+
+.open {
+    color: #2b9326;
+}
+
+.open:after {
+    content: "Trenutno otvoreno";
+    color: #2b9326;
+}
+
+.closed:after {
+    content: "Trenutno zatvoreno";
+    color: #b2280c;
+}
+
+.opening-hours-table tr td {
+    padding: 1rem;
+}
+
+.contact {
+    background-color: #3b455d;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.contact h4 {
+    color: #0077b5;
+    font-weight: bold;
+}
+
+.contact a {
+    color: #fff;
+}
+@media only screen and (max-width: 56.25em) {
+    .contact {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .contact {
+        width: 55%;
+    }
+}
