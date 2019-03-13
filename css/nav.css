@@ -23,7 +23,7 @@
 }
 
 .menu-tab.active {
-    left: 300px;
+    left: 270px;
     transition: all 600ms ease-in-out;
     background-color: rgba(255, 255, 255, 0.2);
 }
@@ -48,8 +48,8 @@
 }
 
 .menu-hide {
-    width: 300px;
-    left: -300px;
+    width: 270px;
+    left: -270px;
     height: 100vh;
     position: fixed;
     z-index: 10;
