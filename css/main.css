@@ -77,20 +77,19 @@ body {
     margin-left: 1rem;
 }
 
+.logo {
+    width: 3rem;
+    height: auto;
+    padding: 5px;
+}
+
 .geo {
-    position: absolute;
+    position:relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;
     height: auto;
-     transform-origin:center;
-}
-
-.logo {
-    width: 3rem;
-    height: auto;
-    padding: 5px;
 }
 
 .animated {
