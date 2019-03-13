@@ -94,7 +94,7 @@ body {
 
 .animated {
     animation: moveInTop 1.5s ease;
-    animation-fill-mode: backwards;
+    /*animation-fill-mode: backwards;*/
 }
 
 @keyframes moveInTop {
