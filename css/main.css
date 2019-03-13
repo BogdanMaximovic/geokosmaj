@@ -19,7 +19,7 @@ body {
     overflow-x: hidden;
 }
 
-#home {
+.mainPage {
     height: 100vh;
 }
 
@@ -92,10 +92,10 @@ body {
     padding: 5px;
 }
 
-.animated {
+/*.animated {
     animation: moveInTop 1.5s ease;
-    /*animation-fill-mode: backwards;*/
-}
+    animation-fill-mode: backwards;
+}*/
 
 @keyframes moveInTop {
 
