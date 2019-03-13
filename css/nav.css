@@ -92,3 +92,13 @@
     background-color: rgba(255, 255, 255, 0.2);
     transition: all .6s ease-in-out;
 }
+
+@media only screen and (max-width: 37.5em) {
+    .menu-tab.active {
+        left: 50%;
+    }
+    .menu-hide {
+        width: 50%;
+        left: -50%;
+    }
+}
