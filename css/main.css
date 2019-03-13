@@ -85,9 +85,9 @@ body {
 
 .geo {
     position:relative;
-    top: 40%;
-    left: 45%;
-    transform: translate(-45%, -40%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 60%;
     height: auto;
 }
