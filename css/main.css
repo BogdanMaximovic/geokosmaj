@@ -93,19 +93,24 @@ body {
 }
 
 .animated {
-    animation: moveInTop 2s ease-out;
+    animation: moveInTop 1.5s ease-out;
 }
 
 @keyframes moveInTop {
 
     0% {
         opacity: 0;
-        transform: translate(0, -50vh);
+        -webkit-transform: translateY(-3rem);
+        -moz-transform: translateY(-3rem);
+        -o-transform: translateY(-3rem);
+        transform: translateY(-3rem); 
     }
-
     100% {
         opacity: 1;
-        transform: translate(0,0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -o-transform: translate(0);
+        transform: translate(0); 
     }
 }
 
