@@ -6,74 +6,6 @@
     display: block;
 }
 
-.banner {
-    background: white;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-    height: auto;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    width: 90%;
-    border-radius: 20px;
-}
-
-.banners {
-    max-width: 100%;
-    display: inline;
-    margin: auto;
-}
-
-.banner-img:first-child {
-    margin-left: 1.2%;
-}
-
-.banner-img {
-    width: 15%;
-    height: 80px;
-    background: transparent;
-    transition: all .4s;
-}
-
-.banner-img:hover {
-    transform: scale(1.05);
-}
-
-@media only screen and (max-width: 56.25em) {
-    .banner {
-        width: 100%;
-    }
-
-    .banner-img {
-        width: 28%;
-        height: 60px;
-    }
-
-    .banner-img:first-child {
-        margin-left: 4%;
-    }
-}
-
-@media only screen and (max-width: 37.5em) {
-    .tab {
-        width: 100%;
-    }
-
-    .tabs_item img {
-        width: 75px;
-        height: 70px;
-    }
-
-    .banner-img:first-child {
-        margin-left: 6.2%;
-    }
-
-    .banner-img {
-        width: 25%;
-        height: 55px;
-    }
-}
-
-
 .grid {
     list-style: none;
     margin-left: -40px;
@@ -225,5 +157,72 @@ ul.box-ul li p {
     .box .menu div {
         padding: 10px 1px 10px 5px;
         margin-bottom: 5px;
+    }
+}
+
+.banner {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.banners {
+    max-width: 100%;
+    display: inline;
+    margin: auto;
+}
+
+.banner-img:first-child {
+    margin-left: 1.2%;
+}
+
+.banner-img {
+    width: 15%;
+    height: 80px;
+    background: transparent;
+    transition: all .4s;
+}
+
+.banner-img:hover {
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 56.25em) {
+    .banner {
+        width: 100%;
+    }
+
+    .banner-img {
+        width: 28%;
+        height: 60px;
+    }
+
+    .banner-img:first-child {
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .tab {
+        width: 100%;
+    }
+
+    .tabs_item img {
+        width: 75px;
+        height: 70px;
+    }
+
+    .banner-img:first-child {
+        margin-left: 6.2%;
+    }
+
+    .banner-img {
+        width: 25%;
+        height: 55px;
     }
 }
