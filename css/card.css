@@ -191,6 +191,7 @@ ul.box-ul li p {
     transform: scale(1.05);
 }
 
+
 @media only screen and (max-width: 56.25em) {
     .box .menu div span.light {
         top: 20px;
