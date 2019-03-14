@@ -136,7 +136,7 @@ body {
 
 #about {
     /* background-color: #3b455d; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/about.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/a.png);
     background-size: cover;
     color: white;
 }
