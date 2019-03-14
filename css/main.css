@@ -201,5 +201,7 @@ footer {
 }
 .img-footer{
     width: 50px;
-    height: auto;
+    height: auto;/*
+    background-color: transparent;
+    border-radius: 100%;*/
 }
