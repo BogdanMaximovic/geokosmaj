@@ -1,5 +1,5 @@
 $("#fullPage").hide()
-$(window).on('load', (e) =>  {
+$(window).on('load', function (e)  {
     $("#fullPage").show() 
     $(".loading").hide()
     AOS.init()

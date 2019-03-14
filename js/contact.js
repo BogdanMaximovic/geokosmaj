@@ -1,4 +1,4 @@
-$(document).ready(($) => {
+$(document).ready(function($) {
 
     let currentDate = new Date();
     let weekday = [];

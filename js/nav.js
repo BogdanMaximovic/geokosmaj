@@ -1,5 +1,5 @@
-$(() => {
-    $('.menu-tab').click(() => {
+$(function () {
+    $('.menu-tab').click(function () {
         $('.menu-hide').toggleClass('show');
         $('.menu-tab').toggleClass('active');
     });

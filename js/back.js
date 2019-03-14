@@ -1,4 +1,4 @@
-$(document).ready(() => {
+$(document).ready(function(e) {
     let scrollingDiv = $("#scrollingDiv");
     $('.back_to_top').css({ "display": "none" });
     let offset = 600;
@@ -11,7 +11,7 @@ $(document).ready(() => {
             $('.back_to_top').fadeOut(duration);
         }
     })
-    $('.back_to_top').click((event) => {
+    $('.back_to_top').click(function(event) {
         event.preventDefault();
         $('html, body').animate({ scrollTop: 0 }, scroll_duration);
         return false;
