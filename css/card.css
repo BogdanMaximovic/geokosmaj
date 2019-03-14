@@ -278,11 +278,11 @@ ul.box-ul li p {
 
 @media only screen and (max-width: 37.5em) {
     .grid-1-of-3 {
-      width: 49.5%;
+      width: 40%;
     }
 
     .grid-2-of-3 {
-      width: 49.5%;
+      width: 59.5%;
     }
     .grid-div {
         margin-right: 0;
