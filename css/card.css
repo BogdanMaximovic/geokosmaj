@@ -44,8 +44,8 @@
     position: relative;
     vertical-align: middle;
     font-weight: 700;
-    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-    border-radius: 0 15px 15px 0;
+    transition:all .3s ease ;
+       border-radius: 0 15px 15px 0;
 }
 
 /*.box .menu div:hover {
@@ -60,8 +60,7 @@
     left: 15px;
     background-color: var(--color-white);
     border-radius: 100%;
-    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-}
+    transition:all .3s ease}
 
 .box .menu div.active span.light {
     background-color: var(--color-primary);
@@ -86,7 +85,7 @@ ul.box-ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition:all .3s ease;
 }
 
 ul.box-ul li {
@@ -95,8 +94,7 @@ ul.box-ul li {
     transform: translateX(50px);
     position: absolute;
     list-style: none;
-    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-}
+    transition:all .3s ease}
 
 ul.box-ul li.active {
     transition-delay: .3s;
