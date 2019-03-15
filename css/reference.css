@@ -59,7 +59,7 @@
     border: 7px solid var(--color-primary);
     border-radius: 100%;
     background-color: var(--color-primary);
-    box-shadow: 0 0 5px var(--color-primary);
+    /*box-shadow: 0 0 5px var(--color-primary);*/
     width: 200px;
     margin-left: -100px;
     margin-top: 5px;
@@ -130,7 +130,7 @@
     -webkit-transform: rotate(-30deg);
     /* Safari */
     transform: rotate(-30deg);
-    box-shadow: 0 0 5px var(--color-primary);
+    /*box-shadow: 0 0 5px var(--color-primary);*/
 }
 
 .timeline>li:nth-child(even) .line:before {
@@ -147,7 +147,7 @@
     -webkit-transform: rotate(33deg);
     /* Safari */
     transform: rotate(33deg);
-    box-shadow: 0 0 5px var(--color-primary);
+    /*box-shadow: 0 0 5px var(--color-primary);*/
 }
 
 /* Medium Devices, .visible-md-* */
