@@ -160,7 +160,7 @@ ul.box-ul li p {
     }
 }
 
-.banner {
+/*.banner {
     background: var(--color-white);
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
     height: auto;
@@ -190,10 +190,18 @@ ul.box-ul li p {
 
 .banner-img:hover {
     transform: scale(1.05);
+}*/
+
+.banner-img {
+    width: 200px;
+    height: 80px;
+    margin-bottom: 5px;
+    border-radius: 15px;
 }
 
+
 @media only screen and (max-width: 56.25em) {
-    .banner {
+    /*.banner {
         width: 100%;
     }
 
@@ -204,6 +212,11 @@ ul.box-ul li p {
 
     .banner-img:first-child {
         margin-left: 4%;
+    }*/
+    .banner-img {
+        width: 150px;
+        height: 60px;
+        margin-bottom: 5px;
     }
 }
 
@@ -217,12 +230,17 @@ ul.box-ul li p {
         height: 70px;
     }
 
-    .banner-img:first-child {
+    /*.banner-img:first-child {
         margin-left: 6.2%;
     }
 
     .banner-img {
         width: 25%;
         height: 55px;
+    }*/
+    .banner-img {
+        width: 120px;
+        height: 55px;
+        margin-bottom: 5px;
     }
 }
