@@ -16,6 +16,19 @@ body {
     background-color: #fff;
     overflow-x: hidden;
 }
+::-webkit-scrollbar
+{
+  width: 10px;  /* for vertical scrollbars */
+  height: 10px; /* for horizontal scrollbars */
+}
+::-webkit-scrollbar-track
+{
+  background: #fff;
+}
+::-webkit-scrollbar-thumb
+{
+  background: #cd2026;
+}
 #about {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/a.png);
     background-size: cover;
