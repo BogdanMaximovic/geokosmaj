@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 :root {
-    --color-primary: #cd2026;
+    --color-primary: #ce2127;/*cd2026*/
     --color-secondary: #3b455d; /*c14949*/
     --color-white: #fff;
     --color-open: #2b9326;
-    --color-nav: #e74c3c;
-    --color-grey-ref: #e74c3c;
+    --color-nav: #e74c3c;/*e74c3c*/
+    --color-grey-ref: #ce2127;/*e74c3c*/
     --gradient : linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 }
 *,
@@ -66,7 +66,6 @@ body {
 .heading {
     font-size: 3em;
     letter-spacing: 2px;
-    margin-left: 1rem;
 }
 .logo {
     width: 3rem;
@@ -120,7 +119,7 @@ body {
     -moz-animation: arrow-jump 1s infinite;
     -o-animation: arrow-jump 1s infinite;
     animation: arrow-jump 1s infinite;
-    color: #084186;
+    color: #3b5999;
     background-color: var(--color-white);
 }
 .img-footer{
