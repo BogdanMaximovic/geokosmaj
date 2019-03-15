@@ -6,7 +6,7 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: var(--color-white);
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
@@ -34,15 +34,15 @@
 }
 
 .info-icon-home {
-    fill: #dc3545;
+    fill: var(--color-primary);
 }
 
 .info-icon-mobile {
-    fill: #2b9326;
+    fill: var(--color-open);
 }
 
 .info-icon-envelope {
-    fill: #fff;
+    fill: var(--color-white);
 }
 
 .call:hover {
@@ -68,7 +68,7 @@
 }
 
 .today {
-    color: #2b9326;
+    color: var(--color-open);
 }
 
 .opening-hours-table tr td:first-child {
@@ -85,17 +85,17 @@
 }
 
 .open {
-    color: #2b9326;
+    color: var(--color-open);
 }
 
 .open:after {
     content: "Trenutno otvoreno";
-    color: #2b9326;
+    color: var(--color-open);
 }
 
 .closed:after {
     content: "Trenutno zatvoreno";
-    color: #b2280c;
+    color: var(--color-primary);
 }
 
 .opening-hours-table tr td {
@@ -103,8 +103,8 @@
 }
 
 .contact {
-    background-color: #3b455d;
-    color: #fff;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
     display: inline-block;
     text-align: center;
     border-radius: 20px;
@@ -118,12 +118,12 @@
 }
 
 .contact h4 {
-    color: #0077b5;
+    color: var(--color-white); /*#0077b5*/
     font-weight: bold;
 }
 
 .contact a {
-    color: #fff;
+    color: var(--color-white);
 }
 @media only screen and (max-width: 56.25em) {
     .contact {

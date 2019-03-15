@@ -56,10 +56,10 @@
     z-index: 100;
     position: absolute;
     left: 50%;
-    border: 7px solid #c14949;
+    border: 7px solid var(--color-primary);
     border-radius: 100%;
-    background-color: #c14949;
-    box-shadow: 0 0 5px #c14949;
+    background-color: var(--color-primary);
+    box-shadow: 0 0 5px var(--color-primary);
     width: 200px;
     margin-left: -100px;
     margin-top: 5px;
@@ -99,7 +99,7 @@
     margin-top: 25px;
     margin-bottom: 10px;
     padding: 0;
-    color: #808080;
+    color: var(--color-grey-ref);
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -107,13 +107,13 @@
     padding: 0;
     text-transform: none;
     font-size: 18px;
-    color: #808080;
+    color: var(--color-grey-ref);
 }
 
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
-    color: #808080;
+    color: var(--color-grey-ref);
 }
 
 .timeline>li:nth-child(odd) .line:before {
@@ -124,13 +124,13 @@
     left: 630px;
     width: 4px;
     height: 200px;
-    background-color: #c14949;
+    background-color: var(--color-primary);
     -ms-transform: rotate(-30deg);
     /* IE 9 */
     -webkit-transform: rotate(-30deg);
     /* Safari */
     transform: rotate(-30deg);
-    box-shadow: 0 0 5px #c14949;
+    box-shadow: 0 0 5px var(--color-primary);
 }
 
 .timeline>li:nth-child(even) .line:before {
@@ -141,13 +141,13 @@
     left: 525px;
     width: 4px;
     height: 250px;
-    background-color: #c14949;
+    background-color: var(--color-primary);
     -ms-transform: rotate(33deg);
     /* IE 9 */
     -webkit-transform: rotate(33deg);
     /* Safari */
     transform: rotate(33deg);
-    box-shadow: 0 0 5px #c14949;
+    box-shadow: 0 0 5px var(--color-primary);
 }
 
 /* Medium Devices, .visible-md-* */

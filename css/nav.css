@@ -12,7 +12,7 @@
 .menu-tab div {
     width: 33px;
     height: 4px;
-    background-color: #e74c3c;
+    background-color: var(--color-nav);
     display: block;
     margin: 5px 28px;
     transition: all .6s ease-in-out;
@@ -70,7 +70,7 @@
 }
 
 .menu-hide nav ul li:hover {
-    background-color: #e74c3c;
+    background-color: var(--color-nav);
     transition: all .5s ease;
 }
 
@@ -78,7 +78,7 @@
     letter-spacing: 3px;
     padding: 30px 25px;
     text-decoration: none;
-    color: #e74b3b;
+    color: var(--color-nav);
     font-weight: 600;
 
 }

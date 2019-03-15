@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+:root {
+    --color-primary: #cd2026;
+    --color-secondary: #3b455d; /*c14949*/
+    --color-white: #fff;
+    --color-open: #2b9326;
+    --color-nav: #e74c3c;
+    --color-grey-ref: #e74c3c;
+    --gradient : linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
 *,
 *::after,
 *::before {
@@ -13,24 +23,25 @@ body {
     font-family: inherit;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    background-color: #fff;
+    background-color: var(--color-white);
     overflow-x: hidden;
 }
 ::-webkit-scrollbar
 {
-  width: 10px;  /* for vertical scrollbars */
-  height: 10px; /* for horizontal scrollbars */
+  width: 10px;
+  height: 10px;
 }
 ::-webkit-scrollbar-track
 {
-  background: #fff;
+  background: var(--color-white);
 }
 ::-webkit-scrollbar-thumb
 {
-  background: #cd2026;
+  background: var(--color-primary);
+  border-radius: 10px;
 }
 #about {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/a.png);
+    background-image: var(--gradient), url(../img/a.png);
     background-size: cover;
     color: #fff;
 }
@@ -44,8 +55,8 @@ body {
     width: 25px;
     height: 25px;
     margin-left: -12px;
-    border-left: 5px solid #cd2026;
-    border-bottom: 5px solid #cd2026;
+    border-left: 5px solid var(--color-primary);
+    border-bottom: 5px solid var(--color-primary);
     -webkit-transform: rotateZ(-45deg);
     transform: rotateZ(-45deg);
     -webkit-animation: arrow-rotation 1.5s infinite;
@@ -89,14 +100,10 @@ body {
         width: 60%;
     }
 }
-.partners {
-    padding: 2em 4em;
-    background: #c14949;
-}
 .brake,
 .newsletter {
     padding: 2em 1em;
-    background: #3b455d;
+    background: var(--color-secondary);
 }
 .back_to_top {
     position: fixed;
@@ -114,14 +121,14 @@ body {
     -o-animation: arrow-jump 1s infinite;
     animation: arrow-jump 1s infinite;
     color: #084186;
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 .img-footer{
     width: 50px;
     height: auto;
 }
 footer {
-    background: #3b455d;
+    background: var(--color-secondary);
 }
 
 @-webkit-keyframes arrow-rotation {

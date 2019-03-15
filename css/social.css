@@ -62,7 +62,7 @@
 
 .social-button:focus,
 .social-button:hover {
-    color: #fff;
+    color: var(--color-white);
 }
 
 .social-button:focus::after,
