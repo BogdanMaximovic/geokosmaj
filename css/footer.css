@@ -55,10 +55,11 @@
     overflow: hidden;
     display: inline-block;
     margin: auto;
+    width: 100%;
 }
 
 .openinghourscontent {
-    float: left;
+    /*float: left;*/
 }
 
 .openinghourscontent h2 {
@@ -97,7 +98,9 @@
     content: "Trenutno zatvoreno";
     color: var(--color-primary);
 }
-
+.opening-hours-table{
+    width: 100%;
+}
 .opening-hours-table tr td {
     padding: 1rem;
 }
