@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 :root {
-    --color-primary: #cd2026;/*cd2026*/
+    --color-primary: #e74c3c;/*cd2026*/
     --color-secondary: #3b455d; /*c14949*/
     --color-white: #fff;
     --color-open: #2b9326;
-    --color-nav: #e74c3c;/*e74c3c*/
-    --color-grey-ref: #ce2127;/*e74c3c*/
+    --color-nav: #cd2026;/*e74c3c*/
+    --color-grey-ref: #e74c3c;/*e74c3c*/
     --gradient : linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 }
 *,
@@ -68,7 +68,7 @@ body {
     letter-spacing: 2px;
 }
 .logo {
-    width: 3rem;
+    width: 4rem;
     height: auto;
     padding: 5px;
 }
