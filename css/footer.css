@@ -125,7 +125,7 @@
     color: var(--color-white);
 }
 #maps {
-    background-image: var(--gradient), url(../img/roads1.png);
+    background-image: var(--gradient), url(../img/hd/kako-do-nas.jpg);
     -o-background-size: cover;
        background-size: cover;
     background-repeat: no-repeat;

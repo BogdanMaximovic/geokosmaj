@@ -41,7 +41,7 @@ body {
   border-radius: 10px;
 }
 #about {
-    background-image: var(--gradient), url(../img/a.png);
+    background-image: var(--gradient), url(../img/hd/o-nama.jpg);
     -o-background-size: cover;
        background-size: cover;
     color: #fff;

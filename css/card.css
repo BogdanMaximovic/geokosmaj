@@ -1,5 +1,5 @@
 #work {
-    background-image: var(--gradient), url(../img/cover.jpg);
+    background-image: var(--gradient), url(../img/hd/usluge.jpg);
     -o-background-size: cover;
        background-size: cover;
     color: var(--color-white);
