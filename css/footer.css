@@ -128,7 +128,7 @@
 .contact h4 {
     color: var(--color-white); /*#0077b5*/
     font-weight: bold;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .contact a {
