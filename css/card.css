@@ -122,6 +122,12 @@ ul.box-ul li p {
 }
 
 
+    .banner-img {
+        width: 200px;
+        height: 80px;
+        margin-bottom: 5px;
+        border-radius: 15px;
+    }
 @media only screen and (max-width: 56.25em) {
     .box .menu div span.light {
         top: 20px;
@@ -135,7 +141,7 @@ ul.box-ul li p {
     }
 
     .grid-2-of-3 {
-        width: 59.5%;
+        width: 59%;
     }
 
     .grid-div {
@@ -153,49 +159,12 @@ ul.box-ul li p {
     }
 
     .box .menu div {
-        padding: 10px 1px 10px 5px;
+        padding: 10px;
         margin-bottom: 5px;
     }
-}
-
-/*.banner {
-    background: var(--color-white);
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-    height: auto;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    width: 90%;
-    border-radius: 20px;
-}
-
-.banners {
-    max-width: 100%;
-    display: inline;
-    margin: auto;
-}
-
-.banner-img:first-child {
-    margin-left: 1.2%;
-}
-
-.banner-img {
-    width: 15%;
-    height: 80px;
-    background: transparent;
-    transition: all .4s;
-}
-
-.banner-img:hover {
-    transform: scale(1.05);
-}*/
-
-.banner-img {
-    width: 200px;
-    height: 80px;
-    margin-bottom: 5px;
-    border-radius: 15px;
-}
+    .box .menu div.active {
+        padding: 10px;
+    }
 
 
 @media only screen and (max-width: 56.25em) {

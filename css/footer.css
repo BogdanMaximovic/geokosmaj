@@ -50,7 +50,7 @@
 }
 
 .openinghours {
-    background-color: #eee;
+    background-color: #d2d2d2;
     border-radius: 20px;
     overflow: hidden;
     display: inline-block;
@@ -68,9 +68,9 @@
     margin-top: .33em;
 }
 
-.today {
+/*.today {
     color: var(--color-open);
-}
+}*/
 
 .opening-hours-table tr td:first-child {
     font-weight: bold;
@@ -111,7 +111,7 @@
     display: inline-block;
     text-align: center;
     border-radius: 20px;
-    width: 80%;
+    width: 90%;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -129,13 +129,16 @@
     color: var(--color-white);
 }
 @media only screen and (max-width: 56.25em) {
-    .contact {
-        width: 60%;
-    }
+    
 }
 
 @media only screen and (max-width: 37.5em) {
-    .contact {
-        width: 55%;
-    }
+    
+}
+
+#maps {
+    background-image: var(--gradient), url(../img/roads1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
