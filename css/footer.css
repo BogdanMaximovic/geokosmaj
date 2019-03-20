@@ -50,10 +50,10 @@
 }
 
 .openinghours {
-        background-color: #d2d2d2;
+    background-color: #d2d2d2;
     border-radius: 20px;
     overflow: hidden;
-    /* display: inline-block; */
+    display: inline-block; 
     /* margin: auto; */
     /* width: 100%; */
 }
@@ -127,7 +127,6 @@
 .contact h4 {
     color: var(--color-white); /*#0077b5*/
     font-weight: bold;
-    padding-bottom: 5px;
 }
 
 .contact a {
