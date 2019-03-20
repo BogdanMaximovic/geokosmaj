@@ -1,7 +1,17 @@
 .social-buttons {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: -10px;
 }
 .social-buttons__button {
@@ -9,9 +19,21 @@
 }
 .social-button {
     position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     outline: none;
     width: 70px;
     height: 70px;
@@ -19,10 +41,24 @@
 }
 .social-button__inner {
     position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: -moz-calc(100% - 2px);
     width: calc(100% - 2px);
+    height: -moz-calc(100% - 2px);
     height: calc(100% - 2px);
     border-radius: 100%;
     background: #fff;
@@ -32,6 +68,9 @@
 .social-button svg {
     position: relative;
     z-index: 1;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    -moz-transition: 0.3s;
     transition: 0.3s;
 }
 .social-button i {
@@ -50,6 +89,9 @@
     width: 0;
     height: 0;
     border-radius: 100%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    -moz-transition: 0.3s;
     transition: 0.3s;
 }
 .social-button:focus,

@@ -1,13 +1,22 @@
 .flame {
     position: relative;
     display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
     display: flex;
     -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+            flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
     background-color: var(--color-white);
-    background-clip: border-box;
+    -o-background-clip: border-box;
+       background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
 }
@@ -117,7 +126,8 @@
 }
 #maps {
     background-image: var(--gradient), url(../img/roads1.png);
-    background-size: cover;
+    -o-background-size: cover;
+       background-size: cover;
     background-repeat: no-repeat;
     color: var(--color-white);
 }
