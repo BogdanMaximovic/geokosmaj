@@ -4,7 +4,6 @@ $(window).on('load', function (e)  {
     $(".loading").hide()
     AOS.init()
 });
-
 $(document).ready(function($) {
 	$('#main-nav a').click(function() {
         $('html, body').animate({
@@ -13,5 +12,3 @@ $(document).ready(function($) {
         return false;
     })
 });
-
-
