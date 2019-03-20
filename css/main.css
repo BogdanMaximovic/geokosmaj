@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 :root {
-    --color-primary: #e74c3c;/*cd2026*/
-    --color-secondary: #c14949; /*c14949*/
+    --color-primary: #e74c3c;
+    --color-secondary: #3b445d;
     --color-white: #fff;
     --color-open: #2b9326;
-    --color-nav: #cd2026;/*e74c3c*/
-    --color-grey-ref: #e74c3c;/*e74c3c*/
+    --color-nav: #cd2026;
+    --color-grey-ref: #e74c3c;
     --gradient : linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 }
 *,
