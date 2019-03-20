@@ -50,12 +50,12 @@
 }
 
 .openinghours {
-    background-color: #d2d2d2;
+        background-color: #d2d2d2;
     border-radius: 20px;
     overflow: hidden;
-    display: inline-block;
-    margin: auto;
-    width: 100%;
+    /* display: inline-block; */
+    /* margin: auto; */
+    /* width: 100%; */
 }
 
 .openinghourscontent {
@@ -71,7 +71,11 @@
 /*.today {
     color: var(--color-open);
 }*/
-
+.sunday {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-style: italic;
+}
 .opening-hours-table tr td:first-child {
     font-weight: bold;
 }
@@ -123,6 +127,7 @@
 .contact h4 {
     color: var(--color-white); /*#0077b5*/
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .contact a {
