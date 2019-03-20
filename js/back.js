@@ -1,5 +1,5 @@
 $(document).ready(function(e) {
-    let scrollingDiv = $("#scrollingDiv");
+    // let scrollingDiv = $("#scrollingDiv");
     $('.back_to_top').css({ "display": "none" });
     let offset = 600;
     let duration = 100;
