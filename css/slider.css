@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 750px;
     padding: 0 50px;
-    margin: 25px auto 0;
+    margin: 10px auto;
     height: 350px;
     position: relative;
 }
@@ -11,6 +11,11 @@
 .slider ul li {
     width: 100%;
     height: 100%
+}
+@media only screen and (max-width: 37.5em) {
+    .slider{
+        height: 200px;
+    }
 }
 
 .slider ul {
@@ -31,35 +36,35 @@
 }
 
 .slider ul li:first-of-type {
-    background-image: url("../img/1.png")
+    background-image: url("../img/hd/o-nama.jpg")
 }
 
 .slider ul li:nth-of-type(2) {
-    background-image: url("../img/2.png")
+    background-image: url("../img/hd/kako-do-nas.jpg")
 }
 
 .slider ul li:nth-of-type(3) {
-    background-image: url("../img/3.png")
+    background-image: url("../img/hd/o-nama.jpg")
 }
 
 .slider ul li:nth-of-type(4) {
-    background-image: url("../img/4.png")
+    background-image: url("../img/hd/kako-do-nas.jpg")
 }
 
 .slider ul li:nth-of-type(5) {
-    background-image: url("../img/5.png")
+    background-image: url("../img/hd/o-nama.jpg")
 }
 
 .slider ul li:nth-of-type(6) {
-    background-image: url("../img/1.png")
+    background-image: url("../img/hd/kako-do-nas.jpg")
 }
 
 .slider ul li:nth-of-type(7) {
-    background-image: url("../img/cover2.png")
+    background-image: url("../img/hd/kako-do-nas.jpg")
 }
 
 .slider ul li:last-of-type {
-    background-image: url("../img/test.png")
+    background-image: url("../img/hd/kako-do-nas.jpg")
 }
 
 .slider .controll {
@@ -67,11 +72,10 @@
     height: 40px;
     position: absolute;
     top: 44%;
-    border-bottom: 3px solid #3b455d;
-    border-left: 3px solid #3b455d;
+    border-bottom: 3px solid var(--color-secondary);
+    border-left: 3px solid var(--color-secondary);
     cursor: pointer;
-    color: #3b455d
-}
+    color: var(--color-secondary);}
 
 .slider .controll:first-of-type {
     transform: rotate(45deg);
@@ -85,7 +89,7 @@
 
 .slider .controll:hover,
 .slider .controll.active {
-    border-color: #f98686
+    border-color: var(--color-primary);
         /* rose */
 }
 
@@ -100,7 +104,7 @@
 
 .slider ol .fa {
     font-size: 20px;
-    color: #3b455d;
+    color: var(--color-secondary);
     cursor: pointer;
     font-weight: normal;
 }
