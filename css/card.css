@@ -19,9 +19,9 @@
     min-height: 1px;
     vertical-align: top;
 }
-.grid-div:last-child {
-    margin-top: 40vh;
-}
+/*.grid-div:last-child {
+    padding-top: 250px;
+}*/
 .grid-1-of-3 {
     width: 33.33333%;
 }
@@ -162,10 +162,10 @@ ul.box-ul li p {
         height: 70px;
     }
     .grid-1-of-3 {
-        width: 40%;
+        width: 45%;
     }
     .grid-2-of-3 {
-        width: 59%;
+        width: 50%;
     }
     .grid-div {
         margin-right: 0;
