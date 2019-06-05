@@ -94,7 +94,7 @@ body {
 }
 @media only screen and (max-width: 56.25em) {
     html {
-        font-size: 80%;
+        font-size: 90%;
     }
     .heading {
         font-size: 2em;
@@ -102,7 +102,7 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
     html {
-        font-size: 72%;
+        font-size: 80%;
     }
     .heading {
         font-size: 1.5em;
