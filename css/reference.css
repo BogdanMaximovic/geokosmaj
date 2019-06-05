@@ -24,9 +24,9 @@ figcaption {
   padding: 2em 1em;
   background: white;
 }
-.grids li {
+/*.grids li {
     margin-bottom: 50px;
-}
+}*/
 @media all and (min-width: 600px) {
   .grids {
     grid-auto-flow: initial;
