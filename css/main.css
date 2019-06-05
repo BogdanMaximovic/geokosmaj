@@ -108,9 +108,9 @@ body {
     .heading {
         font-size: 1.5em;
     }
-    .geo {
+    /*.geo {
         width: 60%;
-    }
+    }*/
 }
 .brake,
 .newsletter {
