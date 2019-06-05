@@ -33,6 +33,7 @@ figcaption {
     grid-auto-flow: initial;
     grid-template-columns: repeat(auto-fit, minmax(auto, 15em));
     justify-content: center;
+    -webkit-overflow-scrolling: touch;
   }
 }
 .grid__figure {
