@@ -37,6 +37,8 @@ figcaption {
   display: grid;
   grid-template-rows: 9em 1fr;
   grid-gap: 1em;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 .grid__figure img {
   width: 200px;
