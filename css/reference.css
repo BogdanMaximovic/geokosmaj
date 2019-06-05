@@ -24,7 +24,6 @@ figcaption {
   -webkit-overflow-scrolling: touch;
   padding: 2em 1em;
   background: white;
-  z-index: 99999999999;
 }
 @media all and (min-width: 600px) {
   .grids {
@@ -42,8 +41,8 @@ figcaption {
 .grid__figure img {
   width: 200px;
   height: 150px;
-  -webkit-overflow-scrolling: touch; 
-  z-index: 1; 
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;  
 }
 .black{
     background: #000;
