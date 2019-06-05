@@ -16,6 +16,7 @@
     -webkit-box-sizing: inherit;
        -moz-box-sizing: inherit;
             box-sizing: inherit;
+            -webkit-overflow-scrolling: touch;
 }
 html,
 body {
