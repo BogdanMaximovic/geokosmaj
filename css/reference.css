@@ -8,11 +8,11 @@ figure {
   margin: 0;
 }
 
-figcaption {
+.figcaption {
   font-style: italic;
   font-size: 1em;
   color: grey;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .grids {
